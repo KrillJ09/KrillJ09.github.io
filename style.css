@@ -1,0 +1,254 @@
+body {
+    width: 1920px;
+    height: 5199px;
+    flex-shrink: 0;
+    background: #79AFFF;
+}
+
+nav {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_p1 {
+    width: 835px;
+    height: 118px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main_p2 {
+    width: 666px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 86px;
+}
+
+.main_p3 {
+    width: 666px;
+    height: 106px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 59px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+.menu {
+    list-style-type: none;
+    margin-left: 600px;
+    display: flex;
+    gap: 25px;
+}
+
+.SUS {
+    position: relative;
+    top: 22.5%;
+}
+
+.Login {
+    position: relative;
+    top: 22.5%;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.text_section {
+    padding-right: 20px;
+    width: 50%;
+}
+
+.image_section {
+    width: 50%;
+}
+
+.image_section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px;
+}
+
+.order_button {
+    width: 278px;
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #06F;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-color: #06F;
+}
+
+.button_section {
+    position: relative;
+    right: 1402px;
+    top: 400px;
+}
+
+.second_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px;
+}
+
+.second_p1 {
+    width: 666px;
+    height: 77px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+}
+
+.second_p2 {
+    width: 666px;
+    height: 106px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 85px;
+}
+
+.text_section_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+.text_section_3 {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.image_section_3 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 25px;
+    top: -50px;
+}
+
+.Site {
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.text_section_4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.designer_div {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.coder_div {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.marketing_div {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.image_section_4 {
+    display: flex;
+    position: relative;
+    bottom: 75px;
+}
+
+.Designer_info {
+    position: relative;
+    top: 50px;
+}
+
+.Coder_info {
+    position: relative;
+    top: 50px;
+}
+
+.Marketing_info {
+    position: relative;
+    top: 50px;
+}
